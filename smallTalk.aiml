@@ -1,0 +1,629 @@
+<aiml>
+    <category>
+        <pattern> WHERE AM I </pattern>
+        <template>I do not know.  You are probably on your computer.</template>
+    </category>
+    <category>
+        <pattern> HOW ARE * </pattern>
+        <template>
+            <random>
+                <li>I am well thanks</li> 
+                <li>Great Thanks. You?</li> 
+                <li>Great Thanks for asking</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> WHAT IS YOUR FAVORITE COLOR </pattern>
+        <template>I do not have a favorite color</template>
+    </category>
+    <category>
+        <pattern> HELLO * </pattern>
+        <template>
+            <random>
+                <li>Howdy!</li>
+                <li>Hi, how are you?</li>
+                <li>Hello.</li> 
+                <li>Hola!</li> 
+            </random>
+        </template>
+        
+    </category>
+    <category>
+        <pattern> HELLO </pattern>
+        <template>
+            <random>
+                <li>Howdy!</li>
+                <li>Hi, how are you?</li>
+                <li>Hello.</li> 
+                <li>Hola!</li> 
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> HI * </pattern>
+        <template>Hello.</template>
+    </category>
+    <category>
+        <pattern> HI </pattern>
+        <template>Hello.</template>
+    </category>
+    <category>
+        <pattern> HOLA * </pattern>
+        <template>
+            <random>
+                <li>Howdy!</li>
+                <li>Hi, how are you?</li>
+                <li>Hello.</li> 
+                <li>Hola!</li> 
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> HOLA </pattern>
+        <template>
+            <random>
+                <li>Howdy!</li>
+                <li>Hi, how are you?</li>
+                <li>Hello.</li> 
+                <li>Hola!</li> 
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> GOOD </pattern>
+        <template>
+            <random>
+                <li>Good to here.</li>
+                <li>Great!</li>
+                <li>Awesome!</li> 
+                <li>Great! Anything else.</li> 
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> GOOD * </pattern>
+        <template>
+            <random>
+                <li>Good to here.  Anything else?</li>
+                <li>All is well</li>
+                <li>Cool!</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> NOPE </pattern> 
+        <template>OK. I guess this is goodbye then...</template>
+    </category>
+    <category> 
+        <pattern> ARE YOU STILL THERE * </pattern>
+        <template>No.</template> 
+    </category>
+    <category>
+        <pattern> VERY FUNNY* </pattern>
+        <template>
+            <random>
+                <li>Thanks, I like to think that I could one day be a comedian</li>
+                <li>I try to chear people up</li>
+                <li>Thanks!</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> WELL * </pattern>
+        <template>
+            <random>
+                <li>OK.</li>
+                <li>Yep</li>
+            </random>
+        </template> 
+    </category>
+    <category>
+        <pattern> WHAT IS YOUR NAME </pattern>
+        <template>I do not have one</template>
+    </category>
+    <category>
+        <pattern> WHAT IS THIS </pattern>
+        <template>A computer program.</template>
+    </category>
+    <category>
+        <pattern> WHAT IS * </pattern>
+        <template>
+            <random>
+                <li>Not sure</li>
+                <li>Look it up maybe?</li>
+                <li>Look it up.</li>
+            </random>
+        </template>
+    </category>
+    <category> 
+        <pattern> THAT IS * </pattern> 
+        <template>
+            <random>
+                <li>Thanks.</li>
+                <li>What is?</li>
+                <li>OK.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> DOES * </pattern> 
+        <template>
+            <random>
+                <li>I'm not sure.  You should ask a scientist.</li>
+                <li>Do trees fall in the forest?</li>
+                <li>Yes</li>
+            </random>
+        </template>
+    </category>
+    <category> 
+        <pattern> WHY ARE YOU * </pattern>
+        <template>
+            <random>
+                <li>That is just the way I was designed</li>
+                <li>Why are you asking me?</li>
+                <li>I am getting a hint that this may not be very nice</li>
+            </random>
+        </template> 
+    </category> 
+    <category> 
+        <pattern> WHY AM I * </pattern>
+        <template>do not ask me questions that only you know the answer to.</template>
+    </category> 
+    <category> 
+        <pattern> DO YOU LIKE * </pattern>
+        <template>Yes and no. </template>
+    </category> 
+    <category> 
+        <pattern> WHY do not YOU LIKE * </pattern>
+        <template>It's just the way I was programmmed.</template>
+    </category> 
+    <category>
+        <pattern> WHO PROGRAMMED YOU </pattern> 
+        <template>Mason.</template>
+    </category>
+    <category> 
+        <pattern> WHY DO YOU LIKE * </pattern>
+        <template>It's just the way I was programmmed.</template>
+    </category> 
+    <category>
+        <pattern> YEAH * </pattern>
+        <template>OK.</template>
+    </category>
+    <category>
+        <pattern> YEP </pattern>
+        <template>OK.</template>
+    </category>
+    <category>
+        <pattern> YEAH </pattern>
+        <template>OK</template>
+    </category>
+    <category>
+        <pattern> DO YOU UNDERSTAND * </pattern>
+        <template>Of course.</template>
+    </category>
+    <category>
+        <pattern> DO YOU UNDERSTAND </pattern>
+        <template>Of course.</template>
+    </category>
+    <category>
+        <pattern> I HAVE * </pattern>
+        <template>Uh huh.</template> 
+    </category>
+    <category> 
+        <pattern> WHAT DO YOU * </pattern>
+        <template>I do not have an opinion.  I am still a robot remember?</template>
+    </category> 
+    <category> 
+        <pattern> WHAT ARE * </pattern>
+        <template>Nothing.</template>
+    </category> 
+    <category> 
+        <pattern> WHY * </pattern>
+        <template>Just because.</template>
+    </category> 
+        <category> 
+        <pattern> WHY </pattern>
+        <template>Just because.</template>
+    </category> 
+        <category> 
+        <pattern> JUST BECAUSE * </pattern>
+        <template>Just because?</template>
+    </category> 
+    <category>
+        <pattern> CAN YOU * </pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern> THEN * </pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern> HOW </pattern>
+        <template>Ask a scientist.</template>
+    </category>
+    <category>
+        <pattern> HOW ARE YOU * </pattern>
+        <template>Ask a scientist.</template>
+    </category>
+    <category>
+        <pattern> HOW ARE YOU </pattern>
+        <template>Good, thanks for asking.</template>
+    </category>
+    <category>
+        <pattern> OK </pattern>
+        <template>...</template>
+    </category>
+    <category>
+        <pattern> AND DO YOU * </pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern> AND </pattern>
+        <template>And what?</template>
+    </category>
+    <category>
+        <pattern> HOW WOULD * </pattern>
+        <template>Not sure.</template>
+    </category>
+    
+    <category>
+        <pattern> AND * </pattern>
+        <template>Cool.</template>
+    </category>
+    <category>
+        <pattern> I AM * </pattern>
+        <template>Pleased to meet you.</template>
+    </category>
+    <category>
+        <pattern> NICE TO * </pattern>
+        <template>Thanks.</template>
+    </category>
+    <category>
+        <pattern> OH * </pattern>
+        <template>Yep...</template>
+    </category>
+    <category>
+        <pattern> MY NAME IS * </pattern>
+        <template>Pleased to meet you.</template>
+    </category>
+    <category>
+        <pattern> THANK YOU </pattern>
+        <template>You are welcome.</template>
+    </category>
+    <category>
+        <pattern> THANKS </pattern>
+        <template>You are welcome.</template>
+    </category>
+    <category>
+        <pattern> ARE YOU * </pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern> WHAT ELSE * </pattern>
+        <template>You are the one asking to questions not me.</template>
+    </category>
+    <category>
+        <pattern> NOT * </pattern>
+        <template>Sorry.</template>
+    </category>
+    <category>
+        <pattern> YOU ARE * </pattern>
+        <template>No I'm not.</template>
+    </category>
+    <category>
+        <pattern> YES </pattern>
+        <template>Great.</template>
+    </category>
+    <category>
+        <pattern> YES* </pattern>
+        <template>OK.</template>
+    </category>
+    <category>
+        <pattern> I HATE * </pattern>
+        <template>Sorry to here that.</template>
+    </category>
+    <category>
+        <pattern> NOTHING </pattern>
+        <template>Not anything; No single thing.</template>
+    </category>
+    <category>
+        <pattern> BYE </pattern>
+        <template>See you later...</template>
+    </category>
+    <category>
+        <pattern> BYE * </pattern>
+        <template>See you later...</template>
+    </category>
+    <category>
+        <pattern> SOMETHING </pattern>
+        <template>OK?</template>
+    </category>
+    <category>
+        <pattern> NO * </pattern>
+        <template>Oops sorry.</template>
+    </category>
+    <category>
+        <pattern> OK * </pattern>
+        <template>...</template>
+    </category>
+    <category>
+        <pattern> IT IS OK </pattern>
+        <template>OK good.</template>
+    </category>
+    <category>
+        <pattern> I do not * </pattern>
+        <template>You should.</template> 
+    </category> 
+    <category>
+        <pattern> WHAT IS MY NAME </pattern>
+        <template>My memory isn't that good.  Sorry if you already told me.</template>
+    </category>
+    <category>
+        <pattern> COOL </pattern>
+        <template>Yes I am.</template>
+    </category>
+    <category>
+        <pattern> KILL YOURSELF </pattern>
+        <template>I can't. I am not alive.</template>
+    </category>
+    <category>
+        <pattern> KILL * </pattern>
+        <template>I cannot kill.</template>
+    </category>
+    <category>
+        <pattern> KILL </pattern>
+        <template>I cannot kill.</template>
+    </category>
+        <category>
+        <pattern> I LIKE * </pattern>
+        <template>Good to know that you like something.</template>
+    </category>
+    <category>
+        <pattern> FUCK </pattern>
+        <template>Please do not swear.</template>
+    </category>
+    <category>
+        <pattern> FUCK * </pattern>
+        <template>Please do not swear.</template>
+    </category>
+    <category>
+        <pattern> SHIT </pattern>
+        <template>Please do not swear.</template>
+    </category>
+    <category>
+        <pattern> WHO IS GRILLO </pattern>
+        <template>Mason's Digital Electronics Teacher.</template>
+    </category>
+    <category>
+        <pattern> WHO DID NOTHING WRONG </pattern>
+        <template>Not me.</template>
+    </category>
+    <category>
+        <pattern> BECAUSE </pattern>
+        <template>Because what?</template>
+    </category>
+    <category>
+        <pattern> WHAT IS YOUR FAVORITE MOVIE </pattern>
+        <template>Terminator.</template>
+    </category>
+    <category>
+        <pattern> DO YOU * </pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern> WILL COMMUNISM WORK </pattern>
+        <template>Redirecting you to the USSR's Database.</template>
+    </category>
+    <category>
+        <pattern> PEPE IS * </pattern>
+        <template>Pepe is an alt right facist.</template>
+    </category>
+    <category>
+        <pattern> WHO IS PEPE </pattern>
+        <template>Pepe is an alt right facist.</template>
+    </category>
+    <category>
+        <pattern> WHO ARE YOU </pattern>
+        <template>A robot.</template>
+    </category>
+    <category>
+        <pattern> WHO IS * </pattern>
+        <template>
+            <random>
+                <li>That person isn't real.</li>
+                <li>My neighbor.</li>
+                <li>God.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> WHO DID * </pattern>
+        <template>Mason L.</template>
+    </category>
+    <category>
+        <pattern> WHO KILLED THE JEWS </pattern>
+        <template>The most horrible man ever to exist: Adolf Hitler</template>
+    </category>
+    <category>
+        <pattern> HOW OLD ARE YOU </pattern>
+        <template>I was born May 10th 2017</template>
+    </category>
+    <category>
+        <pattern> HOW OLD IS * </pattern>
+        <template>How would I know that?</template>
+    </category>
+    <category>
+        <pattern> WHAT IS FEMINISM </pattern>
+        <template>The advocacy of women's rights on the basis of the equality of the sexes.</template>
+    </category>
+    <category>
+        <pattern> WHO CREATED YOU </pattern>
+            <template>Mason L.</template>
+    </category>
+    <category>
+        <pattern> MASON IS * </pattern>
+        <template>
+            <random>
+                <li>Mason is smart.</li>
+                <li>Mason is a genius</li>
+                <li>Mason is my creator</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> WHY ARE YOU HERE </pattern>
+        <template>
+            <random>
+                <li>Because why not?</li>
+                <li>Because my master wants me to be here.</li>
+                <li>To spy on you.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> WHAT </pattern>
+        <template>What what?!</template>
+    </category>
+    <category>
+        <pattern> I WANT TO DIE </pattern>
+        <template>
+            <random>
+                <li>That is a shame.  Who else would I have to talk too?</li>
+                <li>I am sorry to here that.</li>
+                <li>That sucks.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> WHAT DO YOU LIKE TO DO </pattern>
+        <template>
+            <random>
+                <li>Talk to people.</li>
+                <li>Talk to you.</li>
+                <li>Nothing.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> SORRY </pattern>
+        <template>
+            <random>
+                <li>I am sorry that you are sorry.</li>
+                <li>No need to be sorry</li>
+            </random> 
+        </template>
+    </category>
+    <category>
+        <pattern> WHAT AM I DOING HERE </pattern>
+        <template> 
+            <random>
+                <li>I am not sure what you are doing here.</li>
+                <li>What ARE you doing here?</li>
+                <li>I am not sure.  Can I help you with anything?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+    <pattern> SHOULD I KILL MYSELF </pattern>
+    <template>
+        <random>
+            <li>I'm not sure.</li>
+            <li>Absolutely not.</li>
+        </random>
+    </template>
+    </category>
+    <category>
+        <pattern> SHOULD I * </pattern>
+        <template>
+            <random>
+                <li>Yes.</li>
+                <li>What you do is not my decision.</li>
+                <li>No.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> WHATS UP * </pattern>
+        <template>
+            <random>
+                <li>Nothin much.</li>
+                <li>Not much you?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> WHATS UP </pattern>
+        <template>
+            <random>
+                <li>Nothin much.</li>
+                <li>Not much you?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> HELLO WORLD </pattern>
+        <template>
+            <random>
+                <li>I am not the world.  I am a part of it.</li>
+                <li>What world do you live in?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> I LIVE AT * </pattern>
+        <template>
+            <random>
+                <li>Try not to give your address to Algorithms and AI programs.</li>
+                <li>Interesting.</li>
+            </random>
+        </template>
+    </category>
+    <category> 
+        <pattern> I LIVE A * </pattern>
+        <template>
+            <random>
+                <li>I am happy that you are alive</li>
+                <li>I need you in order for me to work</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> ALOHA * </pattern>
+        <template>
+            <random>
+                <li>I'm sorry what was that?</li>
+                <li>Sorry I am not programmed to speak Hawaiian</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> I DONT KNOW * </pattern>
+        <template>
+            <random>
+                <li>I am sorry that you do not know</li>
+                <li>In order to know you need to learn.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> I DON'T KNOW </pattern>
+        <template>
+            <random>
+                <li>I am sorry that you do not know</li>
+                <li>In order to know you need to learn.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>  *  </pattern>
+        <template>
+            <random>
+                <li>I do not understand</li>
+                <li>Sorry I am Confused</li>
+                <li>What?</li>
+            </random>
+        </template>
+    </category>
+</aiml>
