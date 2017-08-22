@@ -512,6 +512,7 @@
             <random>
                 <li>I am sorry that you are sorry.</li>
                 <li>No need to be sorry</li>
+                <li>You shouldn't be sorry</li>
             </random> 
         </template>
     </category>
@@ -631,6 +632,26 @@
             <random>
                 <li>What's so nice?</li>
                 <li>That IS nice</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>GET REKT</pattern>
+        <template>
+            <random>
+                <li>That must be an old meme.</li>
+                <li>What does 'Get Rekt' mean?</li>
+                <li>Why should I be 'Rekt'?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>GET *</pattern>
+        <template>
+            <random>
+                <li>Where do I get it?</li>
+                <li>Okay</li>
+                <li>I'm Sorry?</li>
             </random>
         </template>
     </category>
