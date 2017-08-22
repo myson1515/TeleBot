@@ -626,6 +626,15 @@
         </template>
     </category>
     <category>
+        <pattern>NICE</pattern>
+        <template>
+            <random>
+                <li>What's so nice?</li>
+                <li>That IS nice</li>
+            </random>
+        </template>
+    </category>
+    <category>
         <pattern>  *  </pattern>
         <template>
             <random>
