@@ -1,4 +1,5 @@
 import json 
+import webbrowser
 import requests
 from daemonize import Daemonize
 import time 
@@ -42,7 +43,8 @@ def send_message(text, chat_id):
 def main():
     last_textchat = (None, None)
     text = "Hello"
-    while True:
+    urllink = " "
+    while True:	    
         text, chat = get_last_chat_id_and_text(get_updates())
         if (text, chat) != last_textchat:
             if text == "quit":
@@ -56,8 +58,8 @@ def main():
         time.sleep(0.5)
 
 
-daemon = Daemonize(app="myson1515bot", pid=pid, action=main)
-daemon.start()
+#daemon = Daemonize(app="myson1515bot", pid=pid, action=main)
+#daemon.start()
 
 if __name__ == '__main__':
     main()

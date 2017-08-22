@@ -1,0 +1,1 @@
+cd ~/GitHub/TeleBot && zdaemon -p "python myson1515bot.py" -z /home/pi/GitHub/TeleBot/ -d stop && zdaemon -p "python myson1515bot.py" -z /home/pi/GitHub/TeleBot/ -d start

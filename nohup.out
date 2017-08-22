@@ -1,0 +1,18 @@
+Loading smallTalk.aiml... done (0.38 seconds)
+Loading smallTalk.aiml... done (0.37 seconds)
+Loading smallTalk.aiml... done (0.37 seconds)
+Loading smallTalk.aiml... done (0.37 seconds)
+Loading smallTalk.aiml... done (0.36 seconds)
+Loading smallTalk.aiml... done (0.36 seconds)
+Loading smallTalk.aiml... done (0.36 seconds)
+Loading smallTalk.aiml... done (0.36 seconds)
+Loading smallTalk.aiml... done (0.36 seconds)
+Loading smallTalk.aiml... done (0.36 seconds)
+Traceback (most recent call last):
+  File "myson1515bot.py", line 63, in <module>
+    main()
+  File "myson1515bot.py", line 46, in main
+    text, chat = get_last_chat_id_and_text(get_updates())
+  File "myson1515bot.py", line 33, in get_last_chat_id_and_text
+    text = updates["result"][last_update]["message"]["text"]
+KeyError: 'message'
