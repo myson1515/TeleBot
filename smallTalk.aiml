@@ -617,6 +617,15 @@
         </template>
     </category>
     <category>
+        <pattern>I DONT FEEL GOOD</pattern>
+        <template>
+            <random>
+                <li>That isn't good</li>
+                <li>I am sorry to hear that</li>
+            </random>
+        </template>
+    </category>
+    <category>
         <pattern>  *  </pattern>
         <template>
             <random>
@@ -625,5 +634,5 @@
                 <li>What?</li>
             </random>
         </template>
-    </category>        
+    </category>
 </aiml>
