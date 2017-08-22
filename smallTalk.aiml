@@ -655,6 +655,16 @@
             </random>
         </template>
     </category>
+    <category>
+        <pattern>I AM SURE *</pattern>
+        <template>
+            <random>
+                <li>What are you so sure of?</li>
+                <li>Are you really?</li>
+                <li>Sure of what?</li>
+            </random>
+        </template>
+    </category>
         <category>
         <pattern>I AM SURE YOU ARE</pattern>
         <template>
