@@ -44,6 +44,7 @@ def main():
     last_textchat = (None, None)
     text = "Hello"
     urllink = " "
+    kern.learn(y)
     while True:	    
         text, chat = get_last_chat_id_and_text(get_updates())
         if (text, chat) != last_textchat:
