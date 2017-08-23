@@ -49,9 +49,11 @@ def main():
         if (text, chat) != last_textchat:
             if text == "quit":
                 send_message("Have a nice day!", chat)
+            if text == "update":
+                kern.learn(y)
+                send_message("The program is updating!", chat)
             #send_message(text, chat)
             last_textchat = (text, chat)
-            kern.learn(y)
             send_message(kern.respond(text), chat)
 
 
