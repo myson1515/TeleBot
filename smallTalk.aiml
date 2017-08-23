@@ -290,7 +290,7 @@
     </category>
     <category>
         <pattern> THANK YOU </pattern>
-        <template>You are welcome.</template>
+        <template>You are welcome <get name = "uname"/>.</template>
     </category>
     <category>
         <pattern> THANKS </pattern>
