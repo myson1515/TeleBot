@@ -285,7 +285,7 @@
     </category>
     <category>
         <pattern> MY NAME IS * </pattern>
-        <template>Pleased to meet you.</template>
+        <template>Pleased to meet you <star/></template>
     </category>
     <category>
         <pattern> THANK YOU </pattern>
