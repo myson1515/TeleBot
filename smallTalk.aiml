@@ -285,12 +285,12 @@
     </category>
     <category>
         <pattern> MY NAME IS * </pattern>
-        <think><set name = "username"><star/></set></think>
+        <think><set name = "uname"><star/></set></think>
         <template>Pleased to meet you <star/></template>
     </category>
     <category>
         <pattern> THANK YOU </pattern>
-        <template>You are welcome <get name = "username"></get>.</template>
+        <template>You are welcome.</template>
     </category>
     <category>
         <pattern> THANKS </pattern>
@@ -302,7 +302,7 @@
     </category>
     <category>
         <pattern> WHAT ELSE * </pattern>
-        <template>You are the one asking to questions not me.</template>
+        <template>Not much.</template>
     </category>
     <category>
         <pattern> NOT * </pattern>
