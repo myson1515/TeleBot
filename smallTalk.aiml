@@ -704,11 +704,11 @@
     <category>
         <pattern> YES * </pattern>
         <template>
-        <random>
-            <li>Stop arguing with me please.</li>
-            <li>OK I guess you are right</li>
-            <li>OK</li>
-        </random>
+            <random>
+                <li>Stop arguing with me please.</li>
+                <li>OK I guess you are right</li>
+                <li>OK</li>
+            </random>
         </template>
     </category>
     <category>
