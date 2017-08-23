@@ -286,10 +286,11 @@
     <category>
         <pattern> MY NAME IS * </pattern>
         <template>Pleased to meet you <star/></template>
+        <think><set name = "username"><star/></set></think>
     </category>
     <category>
         <pattern> THANK YOU </pattern>
-        <template>You are welcome.</template>
+        <template>You are welcome.<get name = "username"/></template>
     </category>
     <category>
         <pattern> THANKS </pattern>
