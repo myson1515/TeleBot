@@ -663,6 +663,8 @@
                 <li>No you <star/>.</li>
                 <li>Why would you say that?</li>
                 <li>Why would you say that I <star/></li>
+                <li>Thanks!</li>
+                <li>Thank You!</li>
             </random>
         </template>
     </category>
