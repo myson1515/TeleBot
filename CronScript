@@ -1,5 +1,5 @@
-git pull
+
 git add .
 git commit -m "Today's Update"
-git push -u origin master
+git merge
 cd ~/GitHub/TeleBot && zdaemon -p "python myson1515bot.py" -z /home/pi/GitHub/TeleBot/ -d stop && zdaemon -p "python myson1515bot.py" -z /home/pi/GitHub/TeleBot/ -d start
