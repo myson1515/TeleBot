@@ -657,6 +657,16 @@
         </template>
     </category>
     <category>
+        <pattern> YOU * </pattern>
+        <template>
+            <random>
+                <li>No you <star/>.</li>
+                <li>Why would you say that?</li>
+                <li>Why would you say that I <star/></li>
+            </random>
+        </template>
+    </category>
+    <category>
         <pattern>UPDATE</pattern>
         <template>The code has been updated.</template>
     </category>
@@ -677,6 +687,15 @@
                 <li>What are you so sure of?</li>
                 <li>Are you really?</li>
                 <li>Sure of what?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> HEY * </pattern>
+        <template>
+            <random>
+                <li>Hay is for horses</li>
+                <li>Hey what's up?</li>
             </random>
         </template>
     </category>
