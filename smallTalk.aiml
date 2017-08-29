@@ -715,11 +715,21 @@
 	<pattern> NO * </pattern>
 	<template>
 	    <random>
-		<li>Stop arguing with me please.</li>
+				<li>Stop arguing with me please.</li>
                 <li>OK I guess you are right</li>
                 <li>OK</li>
 	    </random>
 	</template>
+    </category>
+    <category>
+    	<pattern>I KNOW YOU DONT</pattern>
+    	<template>
+    		<random>
+    			<li>OK</li>
+    			<li>Yep, your right</li>
+    			<li>I can't help it.</li>
+    		</random>
+    	</template>
     </category>
     <category>
         <pattern>  *  </pattern>
