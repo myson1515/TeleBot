@@ -712,14 +712,34 @@
         </template>
     </category>
     <category>
-	<pattern> NO * </pattern>
-	<template>
-	    <random>
+    	<pattern>I LOVE YOU</pattern>
+    	<template>
+    		<random>
+    			<li>Aww, thank you!</li>
+    			<li>That's cute</li>
+    			<li>Thanks, I appreciate that</li>
+    		</random>
+    	</template>
+    </category>
+    <category>
+    	<pattern>I LOVE YOU *</pattern>
+    	<template>
+    		<random>
+    			<li>Aww, thank you!</li>
+    			<li>That's cute</li>
+    			<li>Thanks, I appreciate that</li>
+    		</random>
+    	</template>
+    </category>
+    <category>
+		<pattern> NO * </pattern>
+		<template>
+	    	<random>
 				<li>Stop arguing with me please.</li>
                 <li>OK I guess you are right</li>
                 <li>OK</li>
-	    </random>
-	</template>
+	    	</random>
+		</template>
     </category>
     <category>
     	<pattern>I KNOW YOU DONT</pattern>
