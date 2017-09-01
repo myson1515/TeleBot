@@ -732,6 +732,26 @@
     	</template>
     </category>
     <category>
+    	<pattern>WHY NOT</pattern>
+    	<template>
+    		<random>
+    			<li>Because that is the way I was programmed.</li>
+    			<li>It is just the way I am</li>
+    			<li>Mason made me this way</li>
+    		</random>
+    	</template
+    </category>
+    <category>
+    	<pattern>WHO IS MASON</pattern>
+    	<template>
+    		<random>
+    			<li>He is my creater</li>
+    			<li>He is the lead programmer for me</li>
+    			<li>He is the one who made me</li>
+    		</random>
+    	</template>
+    </category>
+    <category>
 		<pattern> NO * </pattern>
 		<template>
 	    	<random>
